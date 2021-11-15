@@ -1,24 +1,18 @@
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
-import { BootstrapModule } from "./shared/theme/bootstrap.module";
-import { BootstrapComponent } from "./shared/theme/bootstrap.component";
-import { MainPanelNavbarComponent } from './shared/navbar/main-panel-navbar/main-panel-navbar.component';
-import { ControlPanelNavbarComponent } from './shared/navbar/control-panel-navbar/control-panel-navbar.component';
+import { SharedModule } from "@shared/shared.module";
+import { BootstrapComponent } from "@shared/theme";
 
 @NgModule({
-  declarations: [
-  
-    MainPanelNavbarComponent,
-       ControlPanelNavbarComponent
-  ],
+  declarations: [],
   imports: [
     AppRoutingModule,
-    BootstrapModule
+    SharedModule,
   ],
   providers: [],
   bootstrap: [
-      BootstrapComponent
+    BootstrapComponent
   ]
 })
 export class AppModule { }
