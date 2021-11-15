@@ -7,7 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class MainPanelThemeComponent implements OnInit {
-    constructor() { }
+    lightBackgroundImage = '/assets/images/back.jpg';
+    darkBackgroundImage = '/assets/images/back-dark.jpg'
+    theme: string;
+    constructor() {
+        this.theme = 'light-theme';
+    }
 
     ngOnInit() { }
+
+    ngAfterViewChecked() {
+        this.theme = sessionStorage.getItem('theme') as any;
+    }
 }

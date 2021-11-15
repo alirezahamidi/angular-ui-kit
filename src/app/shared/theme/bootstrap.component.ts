@@ -14,5 +14,13 @@ import { Component } from '@angular/core';
 })
 export class BootstrapComponent {
   title = 'angular-ui-kit';
-  theme = "light-theme";
+  theme: string = "light-theme";
+
+  constructor() {
+    sessionStorage.setItem("theme", "light-theme");
+  }
+
+  ngAfterViewChecked() {
+    this.theme = String(sessionStorage.getItem('theme'));
+  }
 }
