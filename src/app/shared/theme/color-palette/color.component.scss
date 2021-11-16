@@ -1,0 +1,111 @@
+.light-theme {
+    @import "./light-theme.scss";
+
+    .main-container {
+        background-color: $background;
+        color: $text;
+    }
+    .container {
+        background-color: $containers;
+        color: $text;
+    }
+    .primary {
+        background-color: $primary;
+        color: $text;
+    }
+    .p0 {
+        background-color: $p0;
+        color: $text;
+    }
+    .p1 {
+        background-color: $p1;
+        color: $text;
+    }
+    .p2 {
+        background-color: $p2;
+        color: $text;
+    }
+    .p3 {
+        background-color: $p3;
+        color: $text;
+    }
+    .p4 {
+        background-color: $p4;
+        color: $text;
+    }
+    .p5 {
+        background-color: $p5;
+        color: $text;
+    }
+    .p6 {
+        background-color: $p6;
+        color: $text;
+    }
+    .p7 {
+        background-color: $p7;
+        color: $text;
+    }
+    .p8 {
+        background-color: $p8;
+        color: $text;
+    }
+    .p9 {
+        background-color: $p9;
+        color: $text;
+    }
+
+    .secondary {
+        background-color: $secondary;
+        color: $text;
+    }
+    .s0 {
+        background-color: $s0;
+        color: $text;
+    }
+    .s1 {
+        background-color: $s1;
+        color: $text;
+    }
+    .s2 {
+        background-color: $s2;
+        color: $text;
+    }
+    .s3 {
+        background-color: $s3;
+        color: $text;
+    }
+    .s4 {
+        background-color: $s4;
+        color: $text;
+    }
+    .s5 {
+        background-color: $s5;
+        color: $text;
+    }
+    .s6 {
+        background-color: $s6;
+        color: $text;
+    }
+    .s7 {
+        background-color: $s7;
+        color: $text;
+    }
+    .s8 {
+        background-color: $s8;
+        color: $text;
+    }
+    .s9 {
+        background-color: $s9;
+        color: $text;
+    }
+
+    .warning {
+        background-color: $warning;
+        color: $text;
+    }
+
+    .danger {
+        background-color: $danger;
+        color: $text;
+    }
+}
