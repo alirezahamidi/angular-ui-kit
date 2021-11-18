@@ -1,5 +1,6 @@
 .light-theme {
     @import "./light-theme.scss";
+    background-color: $body;
 
     .main-container {
         background-color: $background;
